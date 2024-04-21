@@ -191,3 +191,37 @@ h4:hover {
 .roof {
     color: black;
 }
+
+/* FOOTER */
+
+.footer {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.footer-a {
+    width: 100%;
+    display: inline;
+    margin: 0 auto;
+    color: white;
+    margin-right: 2rem;
+}
+
+.footer-a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.ftr {
+    /* TEMPRORY CODE */
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+    /* PERMENENT CODE */
+    text-align: center;
+    margin: 0 auto;
+}
