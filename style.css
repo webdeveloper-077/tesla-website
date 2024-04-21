@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, "san-serif";
+    scroll-behavior: smooth;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+    background-image: url(tesla-image.avif);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 54px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 0.6rem;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 4rem;
+    color: rgba(0, 0, 0, 0.642);
+}
+
+section {
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    position: absolute;
+    top: 10;
+    left: 30px;
+    width: 5%;
+    height: 2%;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 8rem;
+}
+
+a:hover {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.528);
+}
+
+button {
+    width: 240px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.887);
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.btn-tp:hover {
+    background-color: rgba(0, 0, 0, 0.528);
+    color: rgba(255, 255, 255, 0.887);
+    transition: 0.2s ease;
+}
+
+.btn-bt:hover {
+    background-color: rgba(255, 255, 255, 0.887);
+    color: rgba(0, 0, 0, 0.872);
+    transition: 0.2s ease;
+}
+
+.btn-bt {
+    background-color: rgba(0, 0, 0, 0.528);
+    color: white;
+    margin-bottom: 2rem;
+}
+
+/* CYBERTRUCK SECTION */
+
+.cybertruck {
+    background-image: url(Cybertruck-Desktop.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.cyber {
+    position: absolute;
+    bottom: 6rem;
+    left: 50%; 
+    transform: translate(-50%);
+}
+
+/* SOLAR PANEL SECTION */
+
+.solar-panel {
+    background-image: url(tesla-house.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.solar-h1, h4{
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.solar-h1 {
+    margin-bottom: 0rem;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h4 {
+    top: 24%;
+    font-weight: lighter;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+h4:hover {
+    border-bottom: 2px solid white;
+}
+
+/* SOLAR ROOF SECTION */
+
+.solar-roof {
+    background-image: url(solar-roof.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.cyber {
+    position: absolute;
+    bottom: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.black {
+    color: black;
+    border: none;
+}
+
+.black:hover {
+    border: none;
+}
+
+.roof {
+    color: black;
+}
